@@ -1,5 +1,5 @@
 import javax.swing.*;
-public class App {
+public class GuesstheNumber {
     public static void main(String[] args) throws Exception {
         int answer = (int) (Math.random()*100 + 1);
         int userAnswer = 0,count = 1,guesses = 10, playAgain = 0, wins = 0;
